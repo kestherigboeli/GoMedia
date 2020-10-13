@@ -37,6 +37,7 @@ class AuthController extends Controller
 
 		if ($token = $this->guard()->attempt( $credentials )) {
 			if (!$signUp) {
+
 				$user = User::where('id', auth()->user()->id)->first();
 
 				$user->activity()->create([

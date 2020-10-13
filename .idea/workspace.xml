@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e52cc17-f474-4077-9121-724c5904665d" name="Default" comment="" />
+    <list default="true" id="7e52cc17-f474-4077-9121-724c5904665d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GoMedia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Activity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Enums/ActivitiesStatus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Controllers/ActivityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Resources/ProductResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Http/Resources/UserResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/factories/ActivityFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/factories/ProductFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/migrations/2020_10_11_213950_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/migrations/2020_10_13_041909_create_activities_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/seeds/ActivitySeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/seeds/ProductSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/database/seeds/TransactionLogSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendLaravel/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/public/icons/favicon-128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/public/icons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/public/icons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/public/icons/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/quasar.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/assets/quasar-logo-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/boot/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/boot/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/components/EssentialLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/components/LoginRegister.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/index.template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/layouts/MainLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/pages/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/pages/Error404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/pages/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/pages/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/router/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/Helpers/AppStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/Helpers/Token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/Helpers/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/module-example/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/module-example/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/module-example/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/module-example/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/module-example/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/store-flag.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontendVue/src/store/subscriber.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +167,8 @@
       <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BackendLaravel/app/Http/Controllers/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="199">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#40#71#0#PHP" expanded="true" />
                 <element signature="e#1273#1726#0#PHP" expanded="true" />
@@ -106,6 +256,9 @@
     <replaceStrings>
       <replace>form</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -291,6 +444,7 @@
     <option name="width" value="1116" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -408,22 +562,21 @@
       <updated>1602366034397</updated>
       <workItem from="1602366035735" duration="20071000" />
       <workItem from="1602453353769" duration="24559000" />
-      <workItem from="1602522133280" duration="33190000" />
+      <workItem from="1602522133280" duration="33427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77820000" />
+    <option name="totallyTimeSpent" value="78057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="307" y="23" width="1116" height="820" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41908714" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30912477" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -840,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BackendLaravel/app/Http/Controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="199">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#40#71#0#PHP" expanded="true" />
             <element signature="e#1273#1726#0#PHP" expanded="true" />
